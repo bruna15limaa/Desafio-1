@@ -187,3 +187,7 @@ footer .button {
 
 }
 
+footer .button:hover {
+    background: #d34461;
+}
+

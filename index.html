@@ -16,7 +16,7 @@
             <h1>Mentoria</h1>
             <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
         </header>
-        <form>
+        <form id="my-form">
             <fieldset>
                 <div class="fieldset-wrapper">
 
@@ -128,7 +128,11 @@
         </form>
         
         <footer>
-            <input class="button" type="submit" value="SALVAR">
+            <input 
+            class="button" 
+            type="submit" 
+            form="my-form"
+            value="SALVAR">
         </footer>
 
     </div>
